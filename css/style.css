@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&:wght@300&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+body{
+    background: black;
+}
+.a{
+    color: inherit;
+}
+.social{
+    padding: 5px 0;
+    background-color: #333237;
+}
+.social a{
+    font-family: 'Public Sans';
+    display: inline-block;
+    color: #ffff;
+    margin-right: 10px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+header{
+    padding: 10px 0;
+    background-color: black;
+    font-family: 'Public Sans';
+}
+header h1{
+    padding: 20px 0px;
+    float: left;
+}
+header a{
+    color:#ffff;
+}
+header ul{
+    float: right;
+}
+.navbar ul li a{
+    font-family: 'Public Sans';
+    display: inline-block;
+    padding: 25px 20px;
+    font-size: 20px;
+}
+.border{
+    position: absolute;
+    height: 150vh;
+    width: 90%;
+    background-color: #ffff;
+    left: 5%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.border h2{
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}

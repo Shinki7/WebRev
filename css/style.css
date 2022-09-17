@@ -25,7 +25,7 @@ body{
     margin-right: 10px;
 }
 .social a:hover{
-    color: black;
+    color: blue;
 }
 .container{
     width: 80%;
@@ -40,11 +40,11 @@ body{
     background-color: black;
 }
 header{
-    padding: 10px 0;
+    margin: 0px 0px;
     font-family: 'Public Sans';
 }
 header h1{
-    padding: 20px 0px;
+    padding: 15px 0px;
     float: left;
 }
 header a{
@@ -65,21 +65,44 @@ header ul{
     color: black;
     border-radius: 200px;
 }
-.news img#gc{
-    width: 389px;
-    height: 200px;
-    margin: 150px 50px;
-    border: 1px solid;
-    color: rgb(110, 1, 1);
-}
-.news img#ov{
-    position: absolute;
+.image{
+    position: relative;
     width: 400px;
-    height: 200px;
-    margin: 151px 45px;
-    opacity: 0;
-    transition: 0.4s;
+    margin: 180px 100px;
 }
-.news img#ov:hover{
-    opacity: 0.4;
+.image img{
+    display: block;
+    width: 90%;
+    border: 1px solid;
+    color: #ffff;    
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 90.5%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffff;
+    font-family: open sans;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.overlay:hover > *{
+    transform: translateY(0);
+}
+.overlay:hover{
+    opacity: 1;
+}
+.title{
+    font-weight: bold;
 }

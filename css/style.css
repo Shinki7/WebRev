@@ -24,6 +24,9 @@ body{
     color: #ffff;
     margin-right: 10px;
 }
+.social a:hover{
+    color: black;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -33,9 +36,11 @@ body{
     display: block;
     clear: both;
 }
+.navbar{
+    background-color: black;
+}
 header{
     padding: 10px 0;
-    background-color: black;
     font-family: 'Public Sans';
 }
 header h1{
@@ -53,19 +58,28 @@ header ul{
     display: inline-block;
     padding: 25px 20px;
     font-size: 20px;
+    transition: 0.2s;
 }
-.border{
-    position: absolute;
-    height: 150vh;
-    width: 90%;
+.navbar ul li a:hover{
     background-color: #ffff;
-    left: 5%;
-    margin-top: 10px;
-    border-radius: 8px;
-}
-.border h2{
-    text-align: center;
-    padding: 10px;
     color: black;
-    font-family: 'Open Sans', sans-serif;
+    border-radius: 200px;
+}
+.news img#gc{
+    width: 389px;
+    height: 200px;
+    margin: 150px 50px;
+    border: 1px solid;
+    color: rgb(110, 1, 1);
+}
+.news img#ov{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    margin: 151px 45px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.news img#ov:hover{
+    opacity: 0.4;
 }

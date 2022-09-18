@@ -63,7 +63,7 @@ header ul{
 .navbar ul li a:hover{
     background-color: #ffff;
     color: black;
-    border-radius: 200px;
+    border-radius: 10px;
 }
 .image{
     position: relative;

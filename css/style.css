@@ -7,6 +7,7 @@
     list-style: none;
     text-decoration: none;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body{
     background: black;
@@ -23,6 +24,7 @@ body{
     display: inline-block;
     color: #ffff;
     margin-right: 10px;
+    transition: 0.2s;
 }
 .social a:hover{
     color: blue;
@@ -50,6 +52,13 @@ header h1{
 header a{
     color:#ffff;
 }
+header h1 a{
+    
+    transition: 0.3s;
+}
+header h1 a:hover{
+    color: rgb(10, 0, 155);
+}
 header ul{
     float: right;
 }
@@ -63,10 +72,10 @@ header ul{
 .navbar ul li a:hover{
     background-color: #ffff;
     color: black;
-    border-radius: 10px;
+    border-radius: 13px;
 }
 .image{
-    position: relative;
+    position: absolute;
     width: 400px;
     margin: 180px 100px;
 }
@@ -106,3 +115,47 @@ header ul{
 .title{
     font-weight: bold;
 }
+.image2{
+    position:absolute;
+    width: 400px;
+    height: 210px;
+    margin: 180px 500px;
+}
+.image2 img{
+    display: block;
+    width: 90%;
+    height: 90%;
+    border: 1px solid;
+    color: #ffff;
+}
+.overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 90.5%;
+    height: 90.8%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffff;
+    font-family: open sans;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.overlay2 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.overlay2:hover > *{
+    transform: translateY(0);
+}
+.overlay2:hover{
+    opacity: 1;
+}
+.title2{
+    font-weight: bold;
+}
+

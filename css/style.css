@@ -10,7 +10,7 @@
     scroll-behavior: smooth;
 }
 body{
-    background: black;
+    background: #ffff;
 }
 .a{
     color: inherit;
@@ -65,13 +65,15 @@ header ul{
 .navbar ul li a{
     font-family: 'Public Sans';
     display: inline-block;
-    padding: 25px 20px;
+    margin: 25px 5px;
+    padding: 10px;
     font-size: 20px;
     transition: 0.2s;
 }
 .navbar ul li a:hover{
-    background-color: #ffff;
+    background-color: rgb(134, 134, 134);
     color: black;
+    padding: 25px 20px;
     border-radius: 13px;
 }
 .image{
@@ -83,7 +85,8 @@ header ul{
     display: block;
     width: 90%;
     border: 1px solid;
-    color: #ffff;    
+    color: #ffff;
+    border-radius: 3px; 
 }
 .overlay{
     position: absolute;
@@ -127,6 +130,7 @@ header ul{
     height: 90%;
     border: 1px solid;
     color: #ffff;
+    border-radius: 3px;
 }
 .overlay2{
     position: absolute;
@@ -134,7 +138,7 @@ header ul{
     left: 0;
     right: 0;
     width: 90.5%;
-    height: 90.8%;
+    height: 91%;
     background: rgba(0, 0, 0, 0.6);
     color: #ffff;
     font-family: open sans;
@@ -158,4 +162,3 @@ header ul{
 .title2{
     font-weight: bold;
 }
-

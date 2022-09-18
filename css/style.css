@@ -53,13 +53,6 @@ header h1{
 header a{
     color:#ffff;
 }
-header h1 a{
-    
-    transition: 0.3s;
-}
-header h1 a:hover{
-    color: rgb(10, 0, 155);
-}
 header ul{
     float: right;
 }

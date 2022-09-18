@@ -71,10 +71,10 @@ header ul{
     transition: 0.2s;
 }
 .navbar ul li a:hover{
-    background-color: rgb(134, 134, 134);
-    color: black;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: #ffff;
     padding: 25px 20px;
-    border-radius: 13px;
+    border-radius: 15px;
 }
 .image{
     position: absolute;

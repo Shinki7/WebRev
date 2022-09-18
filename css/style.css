@@ -192,3 +192,11 @@ header ul{
     margin-left: 30px;
     cursor:not-allowed;
 }
+footer{
+    color: #ffff;
+    top: 0;
+    margin-top: 500px;
+    padding: 30px 0;
+    background-color: black;
+    text-align: center;
+}
